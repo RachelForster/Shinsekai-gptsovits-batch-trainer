@@ -1,0 +1,9 @@
+# Installed into Shinsekai's shared runtime by the host plugin installer.
+# Explicit torch entries trigger the host's existing version/CUDA constraints.
+torch>=2.0
+torchaudio>=2.2
+# 4.x requires Torch >=2.8; the current host stack is Torch 2.7.1.
+pyannote.audio==3.4.0
+huggingface-hub>=0.28,<1
+soundfile>=0.13,<0.15
+imageio-ffmpeg>=0.6,<0.7

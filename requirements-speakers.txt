@@ -1,0 +1,3 @@
+# Compatibility alias. Prefer Shinsekai's plugin dependency installer so that
+# its PyTorch version and CPU/CUDA wheel policy are applied.
+-r requirements.txt
